@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Poppins:ital,wght@1,300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+nav{
+    background-color: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 20px 50px;
+}
+
+section{
+    margin: auto;
+    width: 50%;
+    padding: 1rem;
+}
+
+#textArea{
+    display: block;
+    min-height: 20vh;
+    width: 100%;
+    margin: 2rem 0rem;
+    font-size: 1.3rem;
+}
+
+#btn-translate{
+    background-color: black;
+    color: white;
+    padding: 1rem 2rem;
+    font-size: 1.25rem;
+    margin: 1rem 0rem;
+}
+
+#output{
+    border: 2px solid black;
+    width: 100%;
+    min-height: 10vh;
+    max-height: 20vh;
+    font-size: 1.3rem;
+    margin-top: 2rem;
+    overflow: scroll;
+}
+
+
+footer{
+    position: fixed;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+    padding: 1.5em;
+}
+
+h3{
+    font-size: 2rem;
+}
+
+p{
+    font-size: 1.2rem;
+}
